@@ -15,7 +15,7 @@ private:
     int A[MAX_SIZE];
     int m_front, m_rear;
 public:
-// basic function for queue data structure 
+// basic function such as enQueue deQueue and check front element for queue data structure 
     Queue():m_front(-1),m_rear(-1){};
     bool isEmpty();
     bool isFull();
